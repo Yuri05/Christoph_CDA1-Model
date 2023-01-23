@@ -1,4 +1,3 @@
-The herein presented PBPK model adequately describes the pharmacokinetics of COMPOUND in adults.
+The herein presented PBPK model overall adequately describes the pharmacokinetics of CDA1 in healthy humans. The initial plasma concentrations are slightly underestimated especially for the higher dose. 
 
-In particular, it applies quantitative ... Thus, the model is fit for purpose to be applied for...
-
+ The PK data had been used during the development of the generic large molecule PBPK model in PK-Sim ([Niederalt 2018](#5-references)) together with PK data from 5 other compounds (7E3, BAY 79-4620, dAb2, MEDI-524 & MEDI-524-YTE).

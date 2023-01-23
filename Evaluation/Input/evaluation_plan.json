@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "CDA1",
+            "Path": "../../CDA1.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -14,15 +14,15 @@
             "GOFMergedPlotsPredictedVsObserved": [
                 {
                     "Type": "X",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -53,8 +53,8 @@
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -121,13 +121,18 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
+                "Project": "CDA1",
+                "Simulation": "Sim_5mgkg",
                 "SectionReference": "ct-profiles"
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "CDA1",
+                "Simulation": "Sim_10mgkg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "CDA1",
+                "Simulation": "Sim_20mgkg",
                 "SectionReference": "ct-profiles"
             }
         ],
@@ -146,27 +151,40 @@
                 ],
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "5 mg/kg IV",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
+                                "Project": "CDA1",
+                                "Simulation": "Sim_5mgkg",
+                                "Output": "Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5",
                                 "Color": "#FF0000"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
+                        "Caption": "10 mg/kg IV",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
+                                "Project": "CDA1",
+                                "Simulation": "Sim_10mgkg",
+                                "Output": "Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "20 mg/kg IV",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "CDA1",
+                                "Simulation": "Sim_20mgkg",
+                                "Output": "Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20",
                                 "Color": "#FF0000"
                             }
                         ]
@@ -180,15 +198,9 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "CDA1",
+            "Name": "CDA1",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],

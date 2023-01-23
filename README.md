@@ -1,5 +1,5 @@
-# COMPOUND-Model
-**_tbd._**
+# CDA1-Model
+Whole-body PBPK model of the antibody CDA1 in healthy adults.
 
 ## Repository files
 **_tbd._**
