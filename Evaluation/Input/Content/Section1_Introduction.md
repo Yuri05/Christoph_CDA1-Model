@@ -4,5 +4,4 @@ CDA1 shows a pharmacokinetic behavior which is typical for an antibody without e
 
 The herein presented evaluation report evaluates the performance of the PBPK model for CDA1 in healthy adults for the PK data used for the development of the generic large molecule model in PK-Sim.
 
-The presented CDA1 PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/.../Compound-model).
-
+The presented CDA1 PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/Open-Systems-Pharmacology/CDA1-Model).
