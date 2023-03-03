@@ -395,6 +395,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Sim_20mgkg|Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20"
+        }
+      ],
       "Individual": "Human_ICRP_male",
       "Compounds": [
         {
@@ -446,12 +453,12 @@
               }
             },
             {
-              "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20-CDA1-Measurement",
+              "Name": "Dose 20 mg/kg-Measurement",
               "X": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|Time",
-              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|ObservedData|||CDA1|Measurement",
+              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -513,12 +520,12 @@
               }
             },
             {
-              "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20-CDA1-Measurement",
+              "Name": "Dose 20 mg/kg-Measurement",
               "X": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|Time",
-              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|ObservedData|||CDA1|Measurement",
+              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -606,6 +613,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Sim_5mgkg|Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5"
+        }
+      ],
       "Individual": "Human_ICRP_male",
       "Compounds": [
         {
@@ -657,12 +671,12 @@
               }
             },
             {
-              "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5-CDA1-Measurement",
+              "Name": "Dose 5 mg/kg-Measurement",
               "X": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|Time",
-              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|ObservedData|||CDA1|Measurement",
+              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -724,12 +738,12 @@
               }
             },
             {
-              "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5-CDA1-Measurement",
+              "Name": "Dose 5 mg/kg-Measurement",
               "X": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|Time",
-              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|ObservedData|||CDA1|Measurement",
+              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -822,6 +836,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Sim_10mgkg|Organism|PeripheralVenousBlood|CDA1|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10"
+        }
+      ],
       "Individual": "Human_ICRP_male",
       "Compounds": [
         {
@@ -873,12 +894,12 @@
               }
             },
             {
-              "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10-CDA1-Measurement",
+              "Name": "Dose 10 mg/kg-Measurement",
               "X": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|Time",
-              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|ObservedData|||CDA1|Measurement",
+              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -940,12 +961,12 @@
               }
             },
             {
-              "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10-CDA1-Measurement",
+              "Name": "Dose 10 mg/kg-Measurement",
               "X": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|Time",
-              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|ObservedData|||CDA1|Measurement",
+              "Y": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -976,6 +997,108 @@
   ],
   "ObservedData": [
     {
+      "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Data"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "CDA1"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Dose [mg/kg]",
+          "Value": "5"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 150000.0
+              },
+              "Values": [
+                10.78865,
+                7.847496,
+                5.886742,
+                2.94560218,
+                2.94561,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "µg/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 150000.0
+          },
+          "Values": [
+            103.92,
+            84.37514,
+            70.72148,
+            61.9697075,
+            51.45415,
+            43.10527,
+            30.32455,
+            13.57308
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.104166664,
+          1.0,
+          2.0,
+          3.0,
+          7.0,
+          14.0,
+          28.0,
+          56.0
+        ],
+        "Dimension": "Time",
+        "Unit": "day(s)"
+      }
+    },
+    {
       "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20",
       "ExtendedProperties": [
         {
@@ -985,6 +1108,18 @@
         {
           "Name": "Molecule",
           "Value": "CDA1"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
         },
         {
           "Name": "Dose [mg/kg]",
@@ -998,7 +1133,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|ObservedData|||CDA1|Error"
+                "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -1025,7 +1160,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|ObservedData|||CDA1|Measurement"
+            "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose20|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -1092,6 +1227,18 @@
           "Value": "CDA1"
         },
         {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
           "Name": "Dose [mg/kg]",
           "Value": "10"
         }
@@ -1103,7 +1250,7 @@
             {
               "Name": "Error",
               "QuantityInfo": {
-                "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|ObservedData|||CDA1|Error"
+                "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Error"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -1126,7 +1273,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|ObservedData|||CDA1|Measurement"
+            "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose10|ObservedData|Peripheral Venous Blood|Plasma|CDA1|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -1159,98 +1306,8 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          2.5,
-          10.0,
-          24.0,
-          48.0,
-          72.0,
-          168.0,
-          336.0,
-          672.0,
-          1344.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5",
-      "ExtendedProperties": [
-        {
-          "Name": "Sheet",
-          "Value": "Data"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "CDA1"
-        },
-        {
-          "Name": "Dose [mg/kg]",
-          "Value": "5"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Measurement",
-          "RelatedColumns": [
-            {
-              "Name": "Error",
-              "QuantityInfo": {
-                "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|ObservedData|||CDA1|Error"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 150000.0
-              },
-              "Values": [
-                10.78865,
-                7.847496,
-                5.886742,
-                2.94560218,
-                2.94561,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "µg/ml"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|ObservedData|||CDA1|Measurement"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 150000.0
-          },
-          "Values": [
-            103.92,
-            84.37514,
-            70.72148,
-            61.9697075,
-            51.45415,
-            43.10527,
-            30.32455,
-            13.57308
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Taylor2008_PK_human_mAb_PKSimImport.CDA1.Dose5|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
           0.104166664,
+          0.416666657,
           1.0,
           2.0,
           3.0,
